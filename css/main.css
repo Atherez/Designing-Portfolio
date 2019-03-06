@@ -1,0 +1,186 @@
+.flex-container-vertical{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.flex-container-horizontal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@font-face{
+    font-family:Myfont;
+    src: url(ZCOOL.ttf);
+}
+body{
+    font-family: MyFont;
+    padding: 0px;
+    margin: 0px;
+}
+.fab {
+    padding:5px;
+    margin:0px 3px 0px 0px;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.7;
+    width:18px;
+    height:18px;
+    font-size:18px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background:deeppink;
+  color: white;
+}
+.photoCircle:hover{
+    height:132px;
+    width:132px;
+}
+.photoCircle {
+    height:130px;
+    width: 130px;
+    margin:2vh;
+    background:url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+  }
+.basicDetails{
+    padding:0px;
+    padding-left: 3vh;
+    
+}
+.navlinks{
+    padding:3vh 5vh 3vh 5vh;
+    color:#007bb5;
+    font-size:1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navlinks:hover{
+    color:#ed001f;
+    font-size:1.3em;
+    opacity: 0.9;
+}
+.header{
+    border-bottom:0.5px solid lightgray;
+}
+.left{
+    justify-content: flex-start;
+}
+#slider{
+    display: block;
+    width:80%;
+    min-height:60vh;
+    max-height:60vh;
+    border:0.5px solid lightgray;
+    background-size: cover;
+    background-position: center center;
+}
+.slideshow{
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+.arrows{ 
+    padding:0px 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.arrows:hover{
+    opacity: 0.5;
+}
+#sliderData{
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
+    height:auto;
+    padding:20px;
+    text-align: center;
+    color:white;
+}
+#sliderData:hover{
+    position:relative;
+    top:20px;
+    left:20px;
+}
+.workShow{
+    justify-content: center;
+}
+.tile{
+    width:80vh;
+    min-height:80vh;
+    max-height:80vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.tileSpacer{
+    width:10%;
+}
+.tile:hover{
+    width:78vh;
+    height:78vh;
+}
+#bd{
+    width:auto;
+}
+.footer{
+    text-align:center;
+}
+.activeNav{
+    color:#ed001f;
+}
+#projectTabs{
+    background-color:white;
+    z-index:2;
+    display:none;
+    flex-wrap: nowrap; 
+    width:25%;
+    position:absolute;
+    border:1px solid lightgrey;
+    left:35%;
+    text-align:center;
+    box-shadow: inset 0px 0px 2px grey;
+}
+#backToTop{
+    display:block;
+    position: sticky;
+    bottom:20px;
+    left:95%;
+    padding:8px;
+    background-color:lightgrey;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+#backToTop:hover{
+    zoom:1.2;
+    color: #ed001e;
+}

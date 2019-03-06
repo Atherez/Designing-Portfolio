@@ -1,0 +1,53 @@
+.content{
+    width:100%;
+    flex-wrap:wrap;
+
+}
+.panes{
+    width:38%;
+    min-height:60vh;
+    margin:5vh;
+    padding:30px;
+    box-shadow: 5px 5px 8px grey,-5px -5px 8px lightgrey;
+}
+.outLinks{
+    text-decoration: none;
+    color:#0282ea;
+    position:relative;
+    left:40px;
+    top:10px;
+}
+.outLinks:hover{
+    zoom:1.2;
+}
+#social{
+    width:50%;
+    left:40px;
+    position: relative;
+}
+#social>tr>td{
+    padding:2px;
+    margin:0px;}
+
+#queryForm{
+    color:#333;
+    font-size: 0.9em;
+    font-weight:600;
+    padding:30px;
+}
+.labelName{
+    color:#0282ea;
+    font-size:1.3em;
+    font-weight:500;
+}
+.values{
+    width:40vh;
+}
+.button{
+    text-align:center;
+    width:15vh;
+    height:5vh;
+    color:white;
+    background-color: #0282ea;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,22 @@
+.thumbnail{
+    margin:5vh;
+    width:40vh;
+    height:auto;
+    float:left;
+    box-shadow:10px 10px 10px darkgrey; 
+    opacity:0.9;
+    vertical-align: middle;
+}
+.thumbnail:hover{
+    width:45vh;
+    height:auto;
+    opacity:1;
+}
+.videoAd{
+    width: 80vh;
+    height:auto;
+}
+.videoAd:hover{
+    width: 100vh;
+    height:auto;
+}
